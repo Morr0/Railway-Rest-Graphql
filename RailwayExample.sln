@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RailwayExample.Core", "RailwayExample.Core\RailwayExample.Core.csproj", "{E3A236E7-448D-4156-9FE1-0F3A9DD88A31}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RailwayExample.RestApi", "RailwayExample.RestApi\RailwayExample.RestApi.csproj", "{9FEC72AA-ABB5-49B2-821E-DBF6579B2905}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{E3A236E7-448D-4156-9FE1-0F3A9DD88A31}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E3A236E7-448D-4156-9FE1-0F3A9DD88A31}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E3A236E7-448D-4156-9FE1-0F3A9DD88A31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FEC72AA-ABB5-49B2-821E-DBF6579B2905}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FEC72AA-ABB5-49B2-821E-DBF6579B2905}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FEC72AA-ABB5-49B2-821E-DBF6579B2905}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FEC72AA-ABB5-49B2-821E-DBF6579B2905}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
