@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using RailwayExample.GraphQlApi.Mutations;
 using RailwayExample.GraphQlApi.Queries;
 
 namespace RailwayExample.GraphQlApi
@@ -21,7 +22,8 @@ namespace RailwayExample.GraphQlApi
         {
             services.AddControllers();
             services.AddGraphQLServer()
-                .AddQueryType<Query>();
+                .AddQueryType<Query>()
+                .AddMutationType<Mutation>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
